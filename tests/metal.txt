@@ -1,0 +1,46 @@
+program teste;
+
+
+	var integer: i;
+	var integer: a;
+
+begin
+	while (i <= 10) do
+	begin
+		a := 0;
+		i := i+1;
+	end;
+
+
+
+	repeat
+		a := 0;
+		i := i+1;
+	until i <= 10;
+
+
+
+	for i:= 1 to 10 do
+	begin
+		a := 0;
+		i := i+1;	
+	end;
+
+
+	function FUNCAO(var a,b:integer):integer;
+	begin
+		a:=1212;
+	end;
+
+
+	procedure PROCEDIMENTO (var a,b:integer);
+	begin
+		a:=1212;
+	end;
+
+
+end.
+
+
+
+

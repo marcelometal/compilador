@@ -1,0 +1,8 @@
+program teste;
+var integer: a;
+
+begin
+x:= a(5,3,a);
+
+
+end.
